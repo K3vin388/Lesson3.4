@@ -12,9 +12,11 @@ let image = document.querySelector('.image');
 
 // CODE ALONG
 // 1. An event listener is provided for the `contentButton`
+contentButton.addEventListener("click", function(){     
+myName.innerHTML = "Kevin"
+})
 // 2. When clicked, it should change the content of:
 //   - The `name` header.
-
 // -- RETURN TO LESSON --
 
 // CODE SOLO
@@ -22,7 +24,8 @@ let image = document.querySelector('.image');
 //   - The `location` paragraph.
 
 contentButton.addEventListener('click', function() {
-
+myHobby.innerHTML = "soccer"
+myLocation.innerHTML = "Indianapolis"
 
 
 
@@ -31,13 +34,22 @@ contentButton.addEventListener('click', function() {
 });
 
 // 3. Add an event listener to the `image1Button`
+image1Button.addEventListener("click", function(){
+image.src = "downloa.png"
+
+    
+})
 // 4. When clicked, it should change the source of `image` to another image URL.
 
 
 
 
-
 // 5. Add an event listener to the `image2Button`
+image2Button.addEventListener("click", function(){
+image.src = "ment.jpg"
+
+    
+})
 // 6. When clicked, it should change the source of `image` to another image URL.
 
 
